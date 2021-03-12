@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM arm32v7/alpine:latest
 EXPOSE 53 53/udp
 
 RUN apk --update upgrade && apk add bind bind-tools bind-plugins
